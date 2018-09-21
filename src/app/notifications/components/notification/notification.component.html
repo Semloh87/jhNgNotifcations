@@ -1,0 +1,5 @@
+<div class="notification" [@simpleFadeAnimation]="'in'" [ngClass]="{ 'notification--success' : notification.type === 'success', 'notification--warn' : notification.type === 'warn', 'notification--error' : notification.type === 'error' }">
+  <h4>{{ notification.title }}</h4>
+  <p>{{ notification.content }}</p>
+  <span [ngStyle]="{ width : progress + '%'}"></span>
+</div>

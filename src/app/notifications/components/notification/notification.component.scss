@@ -1,0 +1,30 @@
+.notification {
+    width:250px;
+    padding:1em 1em calc(1em + 10px);
+    background-color:rgba(32,104,38, 0.9);
+    border-radius: 4px;
+    color:white;
+    font-weight:300;
+    margin:0 10px 10px;
+    position: relative;
+    h4, p {
+        margin:0;
+    }
+    &--success {
+        background-color:rgba(32,104,38, 0.9);
+    }
+   &--warn {
+        background-color:rgba(251,166,7, 0.9);
+  }
+    &--error {
+       background-color:rgba(213,23,25, 0.9);
+   }
+   span {
+     position: absolute;
+     bottom:0;
+     left:0;
+     height:10px;
+     width:0%;
+     background-color:white;
+   }
+}
