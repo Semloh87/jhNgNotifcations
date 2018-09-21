@@ -1,0 +1,32 @@
+.buttons_row {
+  width:95%;
+  max-width:800px;
+  margin:0 auto;
+  display:flex;
+  justify-content: center;
+
+  .btn {
+    background-color:white;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 0;
+    color:white;
+    padding:1em 2em;
+    cursor: pointer;
+    font-size: 28px;
+    line-height:32px;
+    transition:opacity 0.3s ease;
+    &:hover {
+      opacity:0.5;
+    }
+    &--success {
+      background-color:#206826;
+    }
+    &--warn {
+      background-color:#FBA607;
+    }
+    &--error {
+      background-color:#D51719;
+    }
+  }
+}
