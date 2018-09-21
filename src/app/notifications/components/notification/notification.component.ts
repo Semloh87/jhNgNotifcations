@@ -8,7 +8,7 @@ import {
   animate,
   transition
 } from '@angular/animations';
-import { NotificationQueueService } from '../../notification-queue.service';
+import { NotificationQueueService } from '../../services/notification-queue.service';
 import { Notification } from '../../interface/notification.model';
 
 @Component({
