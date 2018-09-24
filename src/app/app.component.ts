@@ -1,4 +1,4 @@
-import { NotificationQueueService } from './notifications/notification-queue.service';
+import { NotificationQueueService } from './notifications/services/notification-queue.service';
 import { Component } from '@angular/core';
 
 @Component({
